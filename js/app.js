@@ -1,6 +1,7 @@
 window.addEventListener("load", function() {
     var cri = document.getElementById("cri");
     var contador = 1;
+	
 	cri.addEventListener("click", function(){
 		if(contador == 1){
 			document.getElementById("c1").style.border = "5px solid red";
